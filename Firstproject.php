@@ -1,6 +1,7 @@
+<?php
 $a;$b;$c;$d;$i;
         $Rimdigit='';
-        $digit=60;
+        $digit=readln();
 
         $a = $digit / 1000;
         $b = $digit / 100 % 10;
@@ -69,7 +70,7 @@ $a;$b;$c;$d;$i;
 
 print_r("n");
 print_r('Измененное число :' .$Rimdigit);
-       
+?>
 
 
 
