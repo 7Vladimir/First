@@ -66,11 +66,11 @@ $a;$b;$c;$d;$i;
             }
             if ($d === 9)
                 $Rimdigit = "{$Rimdigit}IX";
-        }
-
+            }
+            
 print_r("n");
-print_r('Измененное число :' .$Rimdigit);
-?>
+print_r($Rimdigit);
+?>     
 
 
 
